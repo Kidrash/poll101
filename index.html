@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <title>Polling Assistant</title>
 </head>
 <body>
-   
+    <header>
+        <div class="container">
+            <img src="logo2.jpeg" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li> <a href="#Home">Home</li>
+                    <li> <a href="#Vote">Vote</li>
+                    <li> <a href="#About Us">About Us</li>
+                    <li> <a href="#Contact Us">Contact Us </li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+    <a name="Home"></a>
+    <h1>Polling Assistant</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, pariatur. Quis in cum cupiditate dolorum facilis molestiae architecto accusamus, saepe blanditiis expedita hic, provident voluptatem aliquid exercitationem, veniam a asperiores!Lorem</p>  
+    <a name="Vote"></a>
+    <h2>Vote</h2> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, aspernatur. Recusandae ad impedit sint. Nesciunt itaque voluptates, minus nemo exercitationem illum dolor inventore incidunt, cupiditate fugit, possimus id eligendi atque?</p>
+    <a name="About Us"></a>
+    <h3>About Us</h3>
+    <p>The voting process has inherently been marred with irregularities and claims of system rigging. Year after year, some of the participating candidates protest of their votes being rigged due to flawed processes. As a result we came up with a solution that will ensure that each vote counts, systems are transparent  and the true will of the people prevails. </p>
+    <a name="Contact Us"></a>
+    <div class=" container-fluid text-white text-center" id="form">
+        <h4>CONTACT US <br>We'd love some feedback</h4>
+        <form>
+            <div class="form-group row">
+                <input type="text" class="form-control m-2 col-sm-5" placeholder="Name..." id="name">
+                <input type="text" class="form-control m-2 col-sm-5" placeholder="Email..." id="email">
+            </div>
+            <div class="form-group">
+                <textarea name="" id="message" rows="6" placeholder="Your text here..." class="form-control col-sm-11" ></textarea>
+            </div>
+            <div class="text-right">
+           <!-- <button type="submit" class="btn btn-primary text-white text-center">Submit</button>  -->
+           <input type="submit" class="btn btn-primary text-white text-center" value="Submit">
+            </div>
+        </form>	
+    </div>
 <script src="js/scripts.js" charset="UTF-8"></script>
 <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
 </body>
