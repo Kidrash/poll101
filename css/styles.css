@@ -62,15 +62,45 @@ nav a:hover::before{
     width: 100%;
 }
 #form {
-    background: url("../contact.jpeg");
+    background: url(../images/contact.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5%;
-
 }
 .form-control {
     background: transparent;
     color: white;
     opacity: 1;
     padding: 12px;
+}
+#contain{
+    background-color: rgb(0, 0, 0);
+      margin-top: 14px;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 2s ease;
+}
+.inner:hover {
+    transform: scale(1.5);
+}
+#vote{
+    background-color: rgb(0, 0, 0);
+    font-size: xx-large;
+}
+.container{
+    background-color: black;
+    position: relative;
+}
+.card-title{
+    color: skyblue;
+    font-size: xx-large;
+}
+.card-text{
+    color: skyblue;
+}
+#gridCheck{
+    font-size: 400%;
 }
