@@ -4,10 +4,49 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <title>Polling Assistant</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Login</title>
+    <title>Polling Assistant</title>
 </head>
 <body>
-   
+  <div class="pap">
+    <!-- Button to open the modal login form -->
+    <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+    
+    <!-- The Modal -->
+    <div id="id01" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'"
+    class="close" title="Close Modal">&times;</span>
+    
+      <!-- Modal Content -->
+      <form class="modal-content animate" action="/action_page.php">
+        <div class="imgcontainer">
+          <img src="images/logo2.jpeg" alt="Avatar" class="avatar">
+        </div>
+    
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+    
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="pop">Don't have an account? <a href="#">Signup</a> </span>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+    
+    </div>
 <script src="js/scripts.js" charset="UTF-8"></script>
 <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
 </body>
