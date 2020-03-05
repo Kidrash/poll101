@@ -1,0 +1,19 @@
+#contain{
+    background-color: rgb(174, 226, 115);
+      margin-top: 14px;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 2s ease;
+}
+.inner:hover {
+    transform: scale(1.5);
+}
+#form{
+    background-color: rgb(82, 201, 46);
+}
+.container{
+    background-color: black;
+}
