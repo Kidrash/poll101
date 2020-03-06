@@ -4,16 +4,17 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="images/logo2.jpeg">
   <title>Polling Assistant</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="logo2.jpeg" alt="logo" class="logo">
+            <img src="images/logo2.jpeg" alt="logo" class="logo">
             <nav>
                 <ul>
                     <li> <a href="#Home">Home</li>
-                    <li> <a href="#Vote">Vote</li>
+                    <li> <a href="index1.html">Vote</li>
                     <li> <a href="#About Us">About Us</li>
                     <li> <a href="#Contact Us">Contact Us </li>
                 </ul>
@@ -27,7 +28,7 @@
     <h2>Vote</h2> 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, aspernatur. Recusandae ad impedit sint. Nesciunt itaque voluptates, minus nemo exercitationem illum dolor inventore incidunt, cupiditate fugit, possimus id eligendi atque?</p>
     <a name="About Us"></a>
-    <h3>About Us</h3>
+    <h2>About Us</h2>
     <p>The voting process has inherently been marred with irregularities and claims of system rigging. Year after year, some of the participating candidates protest of their votes being rigged due to flawed processes. As a result we came up with a solution that will ensure that each vote counts, systems are transparent  and the true will of the people prevails. </p>
     <a name="Contact Us"></a>
     <div class=" container-fluid text-white text-center" id="form">
@@ -46,6 +47,99 @@
             </div>
         </form>	
     </div>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>Polling Assistant</title>
+</head>
+<body>
+  <div class="container-fluid" id="contain">
+    <div class="row justify-content-center">
+        <div class="col-md-3">
+    <div class="shadow" style="width: 20rem;">
+       <div class="inner"><img src="/images/raila.jpeg" class="card-img-top"></div>
+ <div class="card-body">
+   <h5 class="card-title">Raila Odinga</h5>
+   <p class="card-text color:white;">Party-NASA. <br>Deputy Kalonzo Musyoka. <br>motto NASA HAO</p>
+   <a href="index2.html" class="btn btn-primary">Vote Raila</a>
+ </div>
+</div>
+        </div>
+        <div class="col-md-3">            
+           <div class="shadow" style="width: 20rem;">
+               <div class="inner"><img src="/images/uhuru.jpeg" class="card-img-top"></div>                
+               <div class="card-body">
+                 <h5 class="card-title">Uhuru Kenyatta</h5>
+                 <p class="card-text">Party <strong>JUBILEE</strong> <br>Deputy William Ruto <br> motto WE LEAD .</p>
+                 <a href="index2.html" class="btn btn-primary">Vote Kenyatta</a>
+               </div>
+             </div>
+       </div>
+       <div class="col-md-3">
+    <div class="shadow" style="width: 20rem;">
+       <div class="inner"> <img src="/images/duba.jpeg" class="card-img-top"></div>
+ <div class="card-body">
+   <h5 class="card-title">Abduba Dida</h5>
+   <p class="card-text">Party <strong>KULA MAWE</strong> <br> Deputy Abdi Fatar <br>motto CHEZA CHINI.</p>
+   <a href="index2.html" class="btn btn-primary">Vote Duba Dida</a>
+ </div>
+</div>
+</div>
+<div class="col-md-3">
+   <div class="shadow" style="width: 20rem;">
+       <div class="inner"> <img src="/images/maliti.jpeg" class="card-img-top"></div>       
+       <div class="card-body">
+         <h5 class="card-title">Maliti Mark</h5>
+         <p class="card-text">Party <strong>UDPP</strong> <br>Deputy Joice Leboso <br> motto WE LEAD .</p>
+         <a href="index2.html" class="btn btn-primary">Vote Malitti</a>
+       </div>
+     </div>
+</div>
+       </div>
+    </div>
+
+    <div class="container">
+      <div class="image" id="form">
+  
+          <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="fname">First Name</label>
+                  <input type="name" class="form-control" id="inputFname">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="sname">Second Name</label>
+                  <input type="sname" class="form-control" id="inputSname">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="id">Identification Number</label>
+                <input type="text" class="form-control" id="inputIdentificationNumber" placeholder="1234 no">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCounty">County</label>
+                  <input type="text" class="form-control" id="inputCounty">
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputCountyCode"> your County code </label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary" id="vote">Vote</button>
+            </form>
+  
+      </div>
+                
+      </div>            
 <script src="js/scripts.js" charset="UTF-8"></script>
 <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
 </body>
