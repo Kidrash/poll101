@@ -52,7 +52,7 @@ nav a::before{
     content: '';
     display: block;
     height: 2px;
-    background-color: black;
+    background-color: rgb(67, 70, 83);
     position: absolute;
     width: 0;
     top: 0;
@@ -62,7 +62,7 @@ nav a:hover::before{
     width: 100%;
 }
 #form {
-    background: url(../images/contact.jpeg);
+    background: rgb(66, 66, 88);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5%;
@@ -351,7 +351,7 @@ body a:hover {
 /* content */
 
 body {
-    background: url(../images/element5-digital-T9CXBZLUvic-unsplash.jpg) no-repeat center;
+    background: url(../images/bernard-hermant-OjwQ9WywGsw-unsplash.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -430,7 +430,7 @@ a {
     max-width: 525px;
     min-height: 725px;
     position: relative;
-    background: url(../images/banner1.jpg) no-repeat center;
+    background: url(../images/element5-digital-T9CXBZLUvic-unsplash.jpg) no-repeat center;
     box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 }
 

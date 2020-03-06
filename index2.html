@@ -4,37 +4,45 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="/images/logo2.jpeg">
-    <script src="/js/jquery.js"></script>
-<script src="/script/scripts.js"></script>
     <meta charset="utf-8">
     <title>Landing page</title>
   </head>
   <body>
     <div class="container text-white">
+      
     <div class="image" id="vote">
-        <form>
+      <div id='candidates-standings'>
+        <h3>Casted Votes</h3>
+        <ul>
+          <li>Uhuru: <span id='u'>0</span></li>
+          <li>Rao: <span id='r'>0</span></li>
+          <li>Kalembe: <span id='k'>0</span></li>
+          <li>Miguna: <span id='m'>0</span></li>
+        </ul>
+    </div>
+        <form id='form'>
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="fname">First Name</label>
-                <input type="name" class="form-control" id="inputFname">
+                <input required type="name" class="form-control" id="inputFname">
               </div>
               <div class="form-group col-md-6">
                 <label for="sname">Second Name</label>
-                <input type="sname" class="form-control" id="inputSname">
+                <input required type="sname" class="form-control" id="inputSname">
               </div>
             </div>
             <div class="form-group">
               <label for="id">Identification Number</label>
-              <input type="text" class="form-control" id="inputIdentificationNumber" placeholder="1234 no">
+              <input required type="text" class="form-control" id="inputIdentificationNumber" placeholder="1234 no">
             </div>
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputCounty">County</label>
-                <input type="text" class="form-control" id="inputCounty">
+                <input required type="text" class="form-control" id="inputCounty">
               </div>
               <div class="form-group col-md-2">
                 <label for="inputCountyCode">County code</label>
-                <input type="text" class="form-control" id="inputZip">
+                <input required type="text" class="form-control" id="inputZip">
               </div>
             </div>
             <div class="form-group">
@@ -45,9 +53,26 @@
                 </label>
               </div>
             </div>
+            <div class="form-group">
+              <label>Cast your vote</label>
+              <select id='candidates' required>
+                <option>Candidates</option>
+                <option value="Uhuru">Uhuru</option>
+                <option value="Rao">Rao</option>
+                <option value="Kalembe">Kalembe</option>
+                <option value="Miguna">Miguna</option>
+              </select>
+            </div>
+
+            
+
             <button type="submit" class="btn btn-primary" id="vote">Vote</button>
           </form>
+
+          
     </div>
     </div>
+    <script src="/js/jquery-3.4.1.js"></script>
+    <script src="/js/scripts.js"></script>
    </body>
 </html>
